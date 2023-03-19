@@ -1,2 +1,7 @@
-package org.example.ch04;public class Test {
+package org.example.ch04;
+
+public class Test {
+    public static void main(String[] args) {
+
+    }
 }
