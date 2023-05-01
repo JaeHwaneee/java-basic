@@ -7,6 +7,7 @@ public class Problem2 {
 
     // n_str = "10"
     public int solution(String n_str) {
+        // 문자열을 정수로 변환
         return Integer.valueOf(n_str);
     }
 

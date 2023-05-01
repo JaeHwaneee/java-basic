@@ -6,6 +6,7 @@ package org.example.programmers;
 public class Problem1 {
 
     public String solution(int n) {
+        // 정수를 String 으로 변환
         return String.valueOf(n);
     }
 
