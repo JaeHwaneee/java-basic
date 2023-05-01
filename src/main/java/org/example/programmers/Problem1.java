@@ -1,5 +1,8 @@
 package org.example.programmers;
 
+/**
+ * 프로그래머스 - 문자열로 변환
+ */
 public class Problem1 {
 
     public String solution(int n) {
