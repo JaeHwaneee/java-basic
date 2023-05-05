@@ -6,9 +6,7 @@ package org.example.programmers;
 
 public class Problem4 {
     public int solution(double flo) {
-        int response = (int) Math.floor(flo);
-
-        return response;
+        return (int) Math.floor(flo);
     }
 
     public static void main(String[] args) {
