@@ -22,8 +22,8 @@ public class Problem7 {
                 answer += Character.toLowerCase(ch);
             } else if (Character.isLowerCase(ch)) {
                 // 3. 문자가 소문인지 판단한다.
-                answer += Character.toUpperCase(ch);
                 // 3-1 문자가 소문자라면, 대문자로 변경한다.
+                answer += Character.toUpperCase(ch);
             }
         }
 
