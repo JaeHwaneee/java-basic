@@ -1,16 +1,12 @@
 package org.example.ch02;
 
+// 자바의 정석 2-4: 상수와 리터럴
+
 public class VarEx3 {
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
-        int x= 4, y = 2;
-        int tmp;
+       final int score = 100;
+//        score = 200; final을 사용해서 상수가 되면 상수는 변할 수 없는 선안한 고정값(200)이 되버림
 
-        tmp = x; // 1. x의 값을 tmp에 저장
-        x = y;   // 2. y의 값을 x에 저장
-        y = tmp; // 3. tmp의 값을 y에 저장
-
-        System.out.println("x=" +x);
-        System.out.println("y=" +y);
+        System.out.println(score);
     }
 }
