@@ -10,6 +10,7 @@ public class Problem1 {
         return String.valueOf(n);
     }
 
+
     public static void main(String[] args) {
         // Problem 객체(클래스) 생성
         Problem1 problem1 = new Problem1();
